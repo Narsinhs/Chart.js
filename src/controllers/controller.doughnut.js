@@ -381,7 +381,7 @@ DoughnutController.overrides = {
                 strokeStyle: style.borderColor,
                 lineWidth: style.borderWidth,
                 pointStyle: pointStyle,
-                hidden: !chart.getDataVisibility(i),
+                hidden: chart.getDataVisibility(i),
 
                 // Extra data used for toggling the correct item
                 index: i
