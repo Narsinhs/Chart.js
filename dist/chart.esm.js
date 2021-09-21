@@ -1976,7 +1976,7 @@ DoughnutController.overrides = {
                 strokeStyle: style.borderColor,
                 lineWidth: style.borderWidth,
                 pointStyle: pointStyle,
-                hidden: chart.getDataVisibility(i),
+                hidden: !chart.getDataVisibility(i),
                 index: i
               };
             });
